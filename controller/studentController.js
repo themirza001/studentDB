@@ -26,6 +26,7 @@ exports.getStudent = async (req, res) => {
       const sortBy = req.query.sort.split(",").join(" ");
       query = query.sort(sortBy);
     }
+    //risbh loves shnya
     //console.log()
     if (req.query.fields) {
       console.log(req.query.fields);
